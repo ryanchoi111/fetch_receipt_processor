@@ -7,6 +7,12 @@ Provide any instructions required to run your application.
 
 Data does not need to persist when your application stops. It is sufficient to store information in memory. There are too many different database solutions, we will not be installing a database on our system when testing your application.
 
+## Running Instructions
+* Run "docker build --tag ryanc_fetch_receipt_processor ." in terminal
+* Then "docker run -d -p 5001:5000 ryanc_fetch_receipt_processor"
+* Go to localhost:5001 in your browser
+
+
 ## Language Selection
 
 You can assume our engineers have Go and Docker installed to run your application. Go is our preferred language, but choosing it will not give you an advantage in the evaluation. If you are not using Go, include a Dockerized setup to run the code. You should also provide detailed instructions if your Docker file requires any additional configuration to run the application.

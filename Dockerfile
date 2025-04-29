@@ -1,10 +1,8 @@
 # start by pulling the python image
 FROM python:3.9.6
 
-
-
 # switch working directory
-WORKDIR /ryanc_receipt-processor-challenge
+WORKDIR /ryanc_fetch_receipt_processor
 
 # copy the requirements file into the image
 COPY requirements.txt requirements.txt
